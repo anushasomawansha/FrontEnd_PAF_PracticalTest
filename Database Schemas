@@ -1,1 +1,7 @@
-
+CREATE TABLE `pafprojtest`.`products` (
+  `productid` INT NOT NULL AUTO_INCREMENT,
+  `productname` VARCHAR(45) NULL,
+  `productcategory` VARCHAR(45) NULL,
+  `description` VARCHAR(45) NULL,
+  `price` INT NULL,
+  PRIMARY KEY (`productid`));
